@@ -1,5 +1,6 @@
 
-#include <stdarg.h>
+#include "main.h"
+
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
