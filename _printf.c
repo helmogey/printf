@@ -21,7 +21,7 @@ void print_buffer(char buffer[], int *buff_ind)
 
 
 /**
-*print_all - start
+*_printf - start
 *Description: 'print string'
 *@format: sep
 *Return: void
