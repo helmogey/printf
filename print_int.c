@@ -1,7 +1,7 @@
 #include "main.h"
 
 
-int print_int(va_list arguments, char *buf, unsigned int ibuf)
+int print_int(va_list types, char *buffer[], unsigned int ibuf)
 {
 	int int_input;
 	unsigned int int_in, int_temp, i, div, isneg;
