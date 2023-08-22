@@ -41,6 +41,7 @@ int print_int(va_list types, char buffer[],int flags, int width, int precision, 
 long int convert_size_number(long int num, int size);
 int handel_write_number(int is_negative, int ind, char buffer[], int flags, int width, int precision, int size);
 int handler_write_num(int ind, char buffer[], int flags, int width, int prec, int length, char padd, char extra_c);
+int print_binary(va_list types, char buffer[], int flags, int width, int precision, int size);
 
 
 
