@@ -38,6 +38,9 @@ int handle_print(const char *fmt, int *ind, va_list list, char buffer[], int fla
 int handle_write_char(char c, char buffer[],int flags, int width, int precision, int size);
 int is_digit(char c);
 int print_int(va_list types, char buffer[],int flags, int width, int precision, int size);
+long int convert_size_number(long int num, int size);
+int handel_write_number(int is_negative, int ind, char buffer[], int flags, int width, int precision, int size);
+int handler_write_num(int ind, char buffer[], int flags, int width, int prec, int length, char padd, char extra_c);
 
 
 
