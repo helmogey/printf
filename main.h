@@ -37,6 +37,7 @@ int get_flags(const char *format, int *i);
 int handle_print(const char *fmt, int *ind, va_list list, char buffer[], int flags, int width, int precision, int size);
 int handle_write_char(char c, char buffer[],int flags, int width, int precision, int size);
 int is_digit(char c);
+int print_int(va_list types, char buffer[],int flags, int width, int precision, int size);
 
 
 
